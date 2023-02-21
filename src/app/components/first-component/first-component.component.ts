@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class FirstComponentComponent {
 
+  name:string = "Luana Gabrieli"
+  tittle:string = "Testando a interpolação de dados!"
+  hobbies = ['Estudar', 'Ler', 'Assistir vídeos']
+  age:number = 23
 }
