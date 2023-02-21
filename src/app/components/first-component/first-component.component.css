@@ -1,0 +1,13 @@
+h2 {
+    color: palevioletred;
+}
+
+h3{
+    color: brown;
+}
+
+p{
+    font-weight: bold;
+    color: darkblue;
+}
+/*Essa alteração do CSS vai somente no component, não vazando para o app por exemplo. */
