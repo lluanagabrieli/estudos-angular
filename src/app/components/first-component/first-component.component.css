@@ -10,4 +10,8 @@ h3{
     color: brown;
 }
 
+.stars{
+    color: blueviolet;
+}
+
 /*ALTERAÇÕES FEITAS SOMENTE NO ESCOPO DO COMPONENT. */

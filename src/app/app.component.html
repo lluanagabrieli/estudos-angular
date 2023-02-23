@@ -2,4 +2,6 @@
 <h2>Linha do APP (H2)</h2>
 <h3>Linha do APP (H3)</h3>
 
-<app-first-component></app-first-component> <!--Importação do conteúdo incluso no componente criado (first-component). No caso ele pega de todos os componentes, não só do first-component-.css-->
+<app-first-component [colorStars] = 'colorStars'></app-first-component> <!--Importação do conteúdo incluso no componente criado (first-component).-->
+
+<app-parent-data [userData] = 'userData'></app-parent-data> <!-- Componente pai. O atributo userName é o que quero compartilhar com o componente filho. No caso agora ele recebe o nome de "name". -->

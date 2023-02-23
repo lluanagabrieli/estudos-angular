@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+    userData = {
+        name: 'Robertinho',
+        age: 24,
+        city: 'Piranguinho'
+  }; 
+
+  colorStars = {
+        bigStar: 'blue',
+        mediumStar: 'orange',
+        littleStar: 'red'
+  };
+
   title = 'angular_study';
 }
