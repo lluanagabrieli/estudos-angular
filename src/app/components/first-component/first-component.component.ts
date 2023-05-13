@@ -7,12 +7,14 @@ import { Component, Input } from '@angular/core'; //adicionando o input para ent
 })
 export class FirstComponentComponent {
 
+  @Input() usuario! : { nome:string, idade:number, cidade:string };
+
   //dados do próprio componente
-  name:string = "Luana Gabrieli"
+  /*name:string = "Luana Gabrieli"
   tittle:string = "Testando a interpolação de dados!"
   hobbies = ['Estudar', 'Ler', 'Assistir vídeos']
-  age:number = 23;
+  age:number = 23;*/
 
-  //entrada de dados do componente pai (app.component)
-  @Input() colorStars!: {bigStar: string, mediumStar: string, littleStar: string}
+  color = 'pink';
+  
 }

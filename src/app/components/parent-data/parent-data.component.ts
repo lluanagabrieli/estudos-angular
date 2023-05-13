@@ -10,5 +10,5 @@ export class ParentDataComponent {
   @Input() userData!: { name: string; age: number; city: string; };
 
  /* é preciso colocar um iniciador. O Angular n entende que vou pegar o valor de outro lugar. */ 
-
+ 
 };

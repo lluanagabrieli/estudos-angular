@@ -1,22 +1,4 @@
-<h2>Linha do componente (H2)</h2>
-<h3>Linha do componente (H3)</h3>
-
-<hr>
-
-<!-- A interpolação de dados é feita através do {{nome_dado}}
-    -> Variáveis são criadas no arquivo .ts, dentro da classe - são propriedades da classe. 
-
--->
-
-<!-- Dados pegos do próprio componente first.ts-->
-<h1 style="font-style: italic;">{{tittle}}</h1>
-<p> My name is: {{name}}</p>
-<p>My hobbies: {{hobbies}}</p>
-<p>My age is: {{age}}</p>
-<hr>
-
-<!-- Dados pegos do componente pai app.component-->
-<h2> Color of stars: </h2>
-<p>Big star: {{colorStars.bigStar}}</p>
-<p>Medium star: {{colorStars.mediumStar}}</p>
-<p>Little star: {{colorStars.littleStar}} </p>
+<h2 [ngStyle] = " { color: color } "> Informações do usuário </h2>
+<p> Nome do usuário: {{usuario.nome}}</p>
+<p> Idade do usuário: {{usuario.idade}}</p>
+<p> Cidade do usuário: {{usuario.cidade}}</p>
