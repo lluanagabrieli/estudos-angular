@@ -7,7 +7,8 @@ import { Component, Input } from '@angular/core'; //adicionando o input para ent
 })
 export class FirstComponentComponent {
 
-  @Input() usuario! : { nome:string, idade:number, cidade:string };
+  /* passando as informações do 'dadosUsuario' do componente.app para o first-component */
+  @Input() informations! : { nome:string, idade:number, cidade:string };
 
   //dados do próprio componente
   /*name:string = "Luana Gabrieli"
@@ -16,5 +17,11 @@ export class FirstComponentComponent {
   age:number = 23;*/
 
   color = 'pink';
+  
+  estiloFonte = 'font-style';
+
+  /* colocando várias classes dentro de um array. Com isso, posso aplicar várias formatações de uma vez, adicionando só um nome na classe do elemento, que no caso seria estilos. */
+
+  estilos = ['cor', 'fonte', 'tamanho'];
   
 }

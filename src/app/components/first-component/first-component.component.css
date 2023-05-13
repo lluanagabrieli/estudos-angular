@@ -1,0 +1,16 @@
+.cor {
+    background-color: brown;
+}
+
+.tamanho {
+    font-size: 50;
+}
+
+.fonte {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font-style {
+    font-weight: 700;
+    color: blueviolet;
+}
