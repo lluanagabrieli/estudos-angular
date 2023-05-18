@@ -1,10 +1,11 @@
-import { Component, Input } from '@angular/core'; //adicionando o input para entrada de dados do pai
+import { Component, Input } from '@angular/core'; //adicionando o <input> para entrada de dados do pai
 
 @Component({
-  selector: 'app-first-component',
+  selector: 'first-component',
   templateUrl: './first-component.component.html',
   styleUrls: ['./first-component.component.css']
 })
+
 export class FirstComponentComponent {
 
   /* passando as informações do 'dadosUsuario' do componente.app para o first-component */
