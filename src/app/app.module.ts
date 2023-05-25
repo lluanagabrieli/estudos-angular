@@ -3,18 +3,19 @@ import { NgModule } from '@angular/core';
 
 //prepara a aplicação para rodar no browser
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
+import { CursosComponent } from './components/first-component/cursos/cursos.component';
 
 @NgModule({
   declarations: [//dentro das declarations são listados os componentes, diretivas e pipes que queremos utilizar nesse módulo
     AppComponent,
     FirstComponentComponent,
-    ParentDataComponent
+    ParentDataComponent,
+    CursosComponent
   ],
   imports: [ //são listados outros módulos que queremos utilizar nesse módulo ou dentro de algum componente que pertence a esse módulo. 
     BrowserModule,
